@@ -1,0 +1,36 @@
+GET http://localhost:5001/api/candidate/1
+###
+GET http://localhost:5000/api/candidate_list
+###
+GET http://localhost:5000/api/candidate_info/0
+###
+GET http://localhost:5000/api/Employer_list
+###
+GET http://localhost:5000/api/Employer_job/0
+###
+GET http://localhost:5000/api/Employer_job_position/1/0
+###
+GET http://localhost:5000/api/load_data
+###
+PUT http://localhost:5000/api/Candidate_change/0/0/157207
+###
+PUT http://localhost:5000/api/position_change/0/40000/60000/5
+###
+###
+GET http://localhost:5000/api/candidate/0
+###
+GET http://localhost:5000/api/position_add/0/1/40000/60000/5
+###
+GET http://74.208.65.99:5001/candidates
+
+
+
+//POST   http://localhost:3000/apd
+//Content-Type: application/json
+
+//{
+//"id":1,
+//"minBaseSalary":50,
+//"maxBaseSalary":50,
+//"minDaysCommuting":2
+//}
